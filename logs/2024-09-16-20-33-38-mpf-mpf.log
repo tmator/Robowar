@@ -1,0 +1,6 @@
+2024-09-16 20:33:38,696 : INFO : root : Loading config.
+2024-09-16 20:33:38,698 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-16 20:33:38,698 : INFO : ConfigProcessor : Loading config from cache: /tmp/228763e525bfce5a238e0b1bd6dd6347.mpf_cache
+2024-09-16 20:33:38,727 : INFO : ConfigProcessor : Loading config from cache: /tmp/8973a6dc4f28e221c9999ded5d94a924.mpf_cache
+2024-09-16 20:33:38,727 : INFO : ConfigProcessor : Loading config from cache: /tmp/630a60b96e3d9b5031cbb1e5fa5514c1.mpf_cache
+2024-09-16 20:33:38,728 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/robowar/modes/base/config/base.yaml.

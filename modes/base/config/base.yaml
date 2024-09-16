@@ -1,0 +1,18 @@
+#config_version=6
+
+mode:
+  start_events: ball_started
+  priority: 100
+
+
+segment_display_player:
+  # empty all displays on game start and setup info display
+  game_start:
+    upper_display:
+      text: "Brice RoboWar"
+##! test
+#! start_game
+#! assert_mode_running base
+#! assert_text_on_top_slide "00"
+#! assert_text_on_top_slide "PLAYER 1"
+#! assert_text_on_top_slide "BALL 1"

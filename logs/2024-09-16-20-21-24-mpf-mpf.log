@@ -1,0 +1,97 @@
+2024-09-16 20:21:24,123 : INFO : root : Loading config.
+2024-09-16 20:21:24,126 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-16 20:21:24,126 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinball/Documents/robowar/config/config.yaml
+2024-09-16 20:21:24,126 : INFO : ConfigProcessor : Loading config from file /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
+2024-09-16 20:21:24,141 : INFO : ConfigProcessor : Loading config: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml
+2024-09-16 20:21:24,141 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/robowar/config/config.yaml.
+2024-09-16 20:21:24,144 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/robowar/config/config.yaml
+2024-09-16 20:21:24,144 : INFO : ConfigProcessor : Config file cache created: /tmp/228763e525bfce5a238e0b1bd6dd6347.mpf_cache
+2024-09-16 20:21:24,193 : INFO : ConfigProcessor : Loading config from cache: /tmp/8973a6dc4f28e221c9999ded5d94a924.mpf_cache
+2024-09-16 20:21:24,194 : INFO : ConfigProcessor : Loading config from cache: /tmp/630a60b96e3d9b5031cbb1e5fa5514c1.mpf_cache
+2024-09-16 20:21:24,194 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-16 20:21:24,194 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-09-16-20-21-24-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/home/pinball/Documents/robowar/logs/2024-09-16-20-21-24-mpf-mpf.log'}
+2024-09-16 20:21:24,194 : INFO : Machine : MPF path: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf
+2024-09-16 20:21:24,194 : INFO : Machine : Machine path: /home/pinball/Documents/robowar
+2024-09-16 20:21:24,194 : INFO : Machine : Platform: linux
+2024-09-16 20:21:24,194 : INFO : Machine : Python executable location: /home/pinball/mpfenv/bin/python3
+2024-09-16 20:21:24,194 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2024-09-16 20:21:24,195 : INFO : Machine : Initializing MPF...
+2024-09-16 20:21:24,246 : INFO : lisy : Connecting to /dev/ttyACM0 at 115200bps
+2024-09-16 20:21:24,353 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY80', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,353 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,353 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,434 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,450 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,450 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,450 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,451 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,452 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.8.0-38-generic-x86_64-with-glibc2.39', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,452 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,453 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.8.0-38-generic', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,453 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#38-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun  7 15:25:01 UTC 2024', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,453 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,453 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinball/Documents/robowar/logs/2024-09-16-20-21-24-mpf-mpf.log', 'prev_value': None, 'change': True}
+2024-09-16 20:21:24,453 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-16 20:21:24,463 : WARNING : segment_display.upper_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-16 20:21:24,463 : WARNING : segment_display.lower_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-16 20:21:24,475 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...'display0']")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...'display0']")>)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in segment_display_player: Failed to load config player game_start:segment_displays with settings {'display0': {'text': 'Brice RoboWar', 'priority': 0, 'color': [], 'action': 'add', 'flashing': 'not_set', 'flash_mask': None, 'key': None, 'expire': None}} >> Could not find a segment_displays device with name or tag display0, from list ['display0'] Error Code: CFE-segment_display_player-101 (https://missionpinball.org/logs)
+2024-09-16 20:21:24,483 : INFO : Machine : Starting the main run loop.
+2024-09-16 20:21:24,483 : INFO : Machine : Shutting down...
+2024-09-16 20:21:24,483 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-16 20:21:25,586 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/config_player.py", line 90, in _initialize_system_wide
+    self.validate_config(
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 85, in _validate_config_item
+    devices = self._expand_device(device)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/config_players/device_config_player.py", line 114, in _expand_device
+    return self.raise_config_error(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in segment_display_player: Failed to load config player game_start:segment_displays with settings {'display0': {'text': 'Brice RoboWar', 'priority': 0, 'color': [], 'action': 'add', 'flashing': 'not_set', 'flash_mask': None, 'key': None, 'expire': None}} >> Could not find a segment_displays device with name or tag display0, from list ['display0'] Error Code: CFE-segment_display_player-101 (https://missionpinball.org/logs)
+2024-09-16 20:21:25,590 : INFO : root : MPF run loop ended.

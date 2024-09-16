@@ -1,0 +1,121 @@
+2024-09-16 20:36:32,932 : INFO : root : Loading config.
+2024-09-16 20:36:32,934 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-16 20:36:32,934 : INFO : ConfigProcessor : Loading config from cache: /tmp/228763e525bfce5a238e0b1bd6dd6347.mpf_cache
+2024-09-16 20:36:32,963 : INFO : ConfigProcessor : Loading config from cache: /tmp/8973a6dc4f28e221c9999ded5d94a924.mpf_cache
+2024-09-16 20:36:32,964 : INFO : ConfigProcessor : Loading config from cache: /tmp/630a60b96e3d9b5031cbb1e5fa5514c1.mpf_cache
+2024-09-16 20:36:32,964 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinball/Documents/robowar/modes/base/config/base.yaml
+2024-09-16 20:36:32,964 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/robowar/modes/base/config/base.yaml.
+2024-09-16 20:36:32,965 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/robowar/modes/base/config/base.yaml
+2024-09-16 20:36:32,966 : INFO : ConfigProcessor : Config file cache created: /tmp/1f0c4a2ee4bf9c2c68d28a2107cb9df9.mpf_cache
+2024-09-16 20:36:32,966 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-16 20:36:32,966 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-09-16-20-36-32-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/home/pinball/Documents/robowar/logs/2024-09-16-20-36-32-mpf-mpf.log'}
+2024-09-16 20:36:32,966 : INFO : Machine : MPF path: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf
+2024-09-16 20:36:32,966 : INFO : Machine : Machine path: /home/pinball/Documents/robowar
+2024-09-16 20:36:32,966 : INFO : Machine : Platform: linux
+2024-09-16 20:36:32,966 : INFO : Machine : Python executable location: /home/pinball/mpfenv/bin/python3
+2024-09-16 20:36:32,966 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2024-09-16 20:36:32,967 : INFO : Machine : Initializing MPF...
+2024-09-16 20:36:33,010 : INFO : lisy : Connecting to /dev/ttyACM0 at 115200bps
+2024-09-16 20:36:33,118 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY80', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,118 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,118 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,206 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,225 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,225 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,225 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,226 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,227 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.8.0-38-generic-x86_64-with-glibc2.39', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,227 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,227 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.8.0-38-generic', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,228 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#38-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun  7 15:25:01 UTC 2024', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,228 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,228 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinball/Documents/robowar/logs/2024-09-16-20-36-32-mpf-mpf.log', 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,228 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-16 20:36:33,242 : WARNING : segment_display.upper_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-16 20:36:33,242 : WARNING : segment_display.lower_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-16 20:36:33,255 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('40', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_1_top_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('41', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_1_right_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('42', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_1_center_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('43', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_1_left_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('50', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_2_top_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('51', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_2_right_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('52', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_2_center_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('56', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_2_throught>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('60', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_3_top_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('61', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_3_right_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('70', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_4_top_grop_target>
+2024-09-16 20:36:33,256 : INFO : SwitchController : Found active switch: ('73', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x7d25b9da8cb0>) <switch.s_bottom_bumper>
+2024-09-16 20:36:33,258 : INFO : ball_device.bd_drain : BCH: Initial count: 0
+2024-09-16 20:36:33,259 : INFO : ball_device.bd_drain : State: idle
+2024-09-16 20:36:33,263 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-09-16 20:36:33,265 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-09-16 20:36:33,265 : INFO : BallController : Initial balls found: 0
+2024-09-16 20:36:33,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_4_top_grop_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_side_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_left_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,267 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_rollunder'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_adv'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicking_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stargate_spot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_spot_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_adv'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,270 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_play_test_play'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_throught'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_4_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stargate_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,273 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,273 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,273 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,273 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2024-09-16 20:36:33,274 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-09-16 20:36:33,289 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-09-16 20:36:33,289 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-09-16 20:36:33,290 : INFO : Mode.attract : Started. Priority: 10
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-09-16 20:36:33,290 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-09-16 20:36:33,291 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-09-16 20:36:33,291 : INFO : Machine : Starting the main run loop.
+2024-09-16 20:36:35,344 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-16 20:36:35,414 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-16 20:36:35,414 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-16 20:36:35,415 : INFO : BallController : Known balls: 0
+2024-09-16 20:36:35,415 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-16 20:36:35,415 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-16 20:36:35,415 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-16 20:36:35,415 : INFO : BallController : Triggering ball search.
+2024-09-16 20:36:41,608 : INFO : Machine : Shutting down...
+2024-09-16 20:36:41,608 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-16 20:36:41,712 : INFO : root : MPF run loop ended.
