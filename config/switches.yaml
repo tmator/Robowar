@@ -53,7 +53,7 @@ switches:
     number: 54
   s_left_return_rollover:
     number: 55
-  s_2_throught:
+  s_throught:
     number: 56
   s_tilt:
     number: 57

@@ -1,3 +1,5 @@
+#config_version=6
+
 segment_displays:
   upper_display:
     size: 20

@@ -1,0 +1,217 @@
+2024-09-18 13:57:05,012 : INFO : root : Loading config.
+2024-09-18 13:57:05,014 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-18 13:57:05,014 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinball/Documents/Robowar/config/config.yaml
+2024-09-18 13:57:05,014 : INFO : ConfigProcessor : Loading config from file /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
+2024-09-18 13:57:05,023 : INFO : ConfigProcessor : Loading config: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml
+2024-09-18 13:57:05,023 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/Robowar/config/config.yaml.
+2024-09-18 13:57:05,024 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/config.yaml
+2024-09-18 13:57:05,026 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/switches.yaml
+2024-09-18 13:57:05,027 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/coils.yaml
+2024-09-18 13:57:05,027 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/displays.yaml
+2024-09-18 13:57:05,029 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/lamps.yaml
+2024-09-18 13:57:05,030 : INFO : ConfigProcessor : Config file cache created: /tmp/ce9187e7529af622f3b6e40d00abcf94.mpf_cache
+2024-09-18 13:57:05,058 : INFO : ConfigProcessor : Loading config from cache: /tmp/8973a6dc4f28e221c9999ded5d94a924.mpf_cache
+2024-09-18 13:57:05,058 : INFO : ConfigProcessor : Loading config from cache: /tmp/630a60b96e3d9b5031cbb1e5fa5514c1.mpf_cache
+2024-09-18 13:57:05,058 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-18 13:57:05,058 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-09-18-13-57-05-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/home/pinball/Documents/Robowar/logs/2024-09-18-13-57-05-mpf-mpf.log'}
+2024-09-18 13:57:05,058 : INFO : Machine : MPF path: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf
+2024-09-18 13:57:05,059 : INFO : Machine : Machine path: /home/pinball/Documents/Robowar
+2024-09-18 13:57:05,059 : INFO : Machine : Platform: linux
+2024-09-18 13:57:05,059 : INFO : Machine : Python executable location: /home/pinball/mpfenv/bin/python3
+2024-09-18 13:57:05,059 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2024-09-18 13:57:05,059 : INFO : Machine : Initializing MPF...
+2024-09-18 13:57:05,103 : INFO : lisy : Connecting to /dev/ttyACM0 at 115200bps
+2024-09-18 13:57:05,210 : INFO : EventManager : Event: ======'machine_var_lisy_hardware'====== Args={'value': 'LISY80', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,211 : INFO : EventManager : Event: ======'machine_var_lisy_version'====== Args={'value': '5.26 ', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,211 : INFO : EventManager : Event: ======'machine_var_lisy_api_version'====== Args={'value': b'0.09', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,287 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,303 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,303 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,303 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,304 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.12.3', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,305 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.8.0-38-generic-x86_64-with-glibc2.39', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.8.0-38-generic', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#38-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun  7 15:25:01 UTC 2024', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinball/Documents/Robowar/logs/2024-09-18-13-57-05-mpf-mpf.log', 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,306 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-09-18 13:57:05,322 : WARNING : segment_display.upper_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-18 13:57:05,322 : WARNING : segment_display.lower_display : Segment display update_method will default to 'replace' in a future MPF release. You have no config value specified and are currently getting 'stack' for backwards compatibility. To avoid a breaking change, please set 'update_method: "stack"' in your segment display config.
+2024-09-18 13:57:05,335 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-09-18 13:57:05,335 : INFO : SwitchController : Found active switch: ('40', <mpf.platforms.lisy.lisy.LisyHardwarePlatform object at 0x755cad88cdd0>) <switch.s_1_top_target>
+2024-09-18 13:57:05,336 : INFO : ball_device.bd_drain : BCH: Initial count: 0
+2024-09-18 13:57:05,337 : INFO : ball_device.bd_drain : State: idle
+2024-09-18 13:57:05,340 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-09-18 13:57:05,341 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-09-18 13:57:05,342 : INFO : BallController : Initial balls found: 0
+2024-09-18 13:57:05,342 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,342 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,342 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_side_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,342 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_throught'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_adv'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_rollunder'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_left_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicking_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_top_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_shooter_lane_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,343 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_4_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stargate_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_1_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_play_test_play'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_3_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stargate_spot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_spot_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_4_top_grop_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_adv'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_2_center_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,345 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-09-18 13:57:05,346 : INFO : Mode.attract : Started. Priority: 10
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-09-18 13:57:05,346 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-09-18 13:57:05,347 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-09-18 13:57:05,355 : INFO : SwitchController : <<<<<<< 's_1_right_target' active >>>>>>>
+2024-09-18 13:57:05,356 : INFO : Machine : Starting the main run loop.
+2024-09-18 13:57:05,356 : INFO : SwitchController : <<<<<<< 's_1_center_target' active >>>>>>>
+2024-09-18 13:57:05,357 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:57:05,357 : INFO : SwitchController : <<<<<<< 's_2_top_target' active >>>>>>>
+2024-09-18 13:57:05,358 : INFO : SwitchController : <<<<<<< 's_2_right_target' active >>>>>>>
+2024-09-18 13:57:05,358 : INFO : SwitchController : <<<<<<< 's_2_center_target' active >>>>>>>
+2024-09-18 13:57:05,359 : INFO : SwitchController : <<<<<<< 's_2_throught' active >>>>>>>
+2024-09-18 13:57:05,359 : INFO : SwitchController : <<<<<<< 's_3_top_target' active >>>>>>>
+2024-09-18 13:57:05,360 : INFO : SwitchController : <<<<<<< 's_3_right_target' active >>>>>>>
+2024-09-18 13:57:05,360 : INFO : SwitchController : <<<<<<< 's_4_top_grop_target' active >>>>>>>
+2024-09-18 13:57:05,361 : INFO : SwitchController : <<<<<<< 's_bottom_bumper' active >>>>>>>
+2024-09-18 13:57:08,316 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:08,341 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:08,341 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:08,341 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:08,342 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:08,342 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:08,342 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:08,342 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:08,366 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:08,428 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:08,429 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:08,429 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:08,429 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:08,429 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:08,429 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:08,429 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:08,450 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:08,451 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:08,451 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:08,451 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:08,452 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:08,452 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:08,452 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:08,452 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:10,178 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:10,227 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:10,228 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:10,228 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:10,228 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:10,228 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:10,228 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:10,228 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:10,229 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:10,444 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:10,444 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:10,445 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:10,445 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:10,445 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:10,445 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:10,445 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:10,473 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:10,500 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:10,501 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:10,501 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:10,501 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:10,501 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:10,501 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:10,501 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:10,934 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-09-18 13:57:11,328 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-09-18 13:57:11,328 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-09-18 13:57:11,329 : INFO : BallController : Known balls: 0
+2024-09-18 13:57:11,329 : INFO : BallController : bd_drain contains 0 balls. Tags ['drain', 'home', 'trough']
+2024-09-18 13:57:11,329 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-09-18 13:57:11,329 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-09-18 13:57:11,330 : INFO : BallController : Triggering ball search.
+2024-09-18 13:57:13,250 : INFO : SwitchController : <<<<<<< 's_left_adv' active >>>>>>>
+2024-09-18 13:57:13,441 : INFO : SwitchController : <<<<<<< 's_left_adv' inactive >>>>>>>
+2024-09-18 13:57:13,609 : INFO : SwitchController : <<<<<<< 's_right_adv' active >>>>>>>
+2024-09-18 13:57:13,644 : INFO : SwitchController : <<<<<<< 's_right_adv' inactive >>>>>>>
+2024-09-18 13:57:13,933 : INFO : SwitchController : <<<<<<< 's_right_adv' active >>>>>>>
+2024-09-18 13:57:14,093 : INFO : SwitchController : <<<<<<< 's_right_adv' inactive >>>>>>>
+2024-09-18 13:57:18,909 : INFO : BcpServer : New client connected.
+2024-09-18 13:57:18,911 : INFO : service : Entered service mode. Resetting game if running. Resetting hardware interface now.
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'service_mode_entered'====== Args={}
+2024-09-18 13:57:18,911 : INFO : Mode.attract : Stopped.
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2024-09-18 13:57:18,911 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2024-09-18 13:57:58,963 : INFO : coil.c_1 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:57:58,988 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:57:59,018 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:58:00,917 : INFO : coil.c_2 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:02,481 : INFO : coil.c_3 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:10,599 : INFO : coil.c_ball_release : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:13,425 : INFO : coil.c_ball_release : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:17,979 : INFO : coil.c_ball_release : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:30,157 : INFO : coil.c_stargate_ramp : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:32,059 : INFO : coil.c_stargate_ramp : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:32,706 : INFO : coil.c_stargate_ramp : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:36,528 : INFO : coil.c_1 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:36,554 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:58:36,587 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:58:36,588 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:58:36,610 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:58:53,368 : INFO : coil.c_game_over : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:58:54,584 : INFO : coil.c_game_over : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:59:23,087 : INFO : coil.c_1 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:59:23,118 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:59:23,163 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:59:26,006 : INFO : coil.c_1 : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-09-18 13:59:26,041 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:59:26,067 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:59:26,068 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:59:26,069 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 13:59:26,091 : INFO : SwitchController : <<<<<<< 's_1_left_target' inactive >>>>>>>
+2024-09-18 13:59:26,092 : INFO : SwitchController : <<<<<<< 's_1_left_target' active >>>>>>>
+2024-09-18 14:00:57,119 : INFO : Machine : Shutting down...
+2024-09-18 14:00:57,120 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-18 14:00:57,225 : INFO : root : MPF run loop ended.

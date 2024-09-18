@@ -1,24 +1,37 @@
+#config_version=6
+
+
 coils:
+  
   c_game_over:
+    default_pulse_ms: 200
     number: 100
   c_tilt:
+    default_pulse_ms: 200
     number: 101
   c_ball_release:
+    default_pulse_ms: 200
     number: 102
-  c_tiltrelay_s:
+  c_relay_s:
+    default_pulse_ms: 200
     number: 103
   c_relay_a:
+    default_pulse_ms: 120
     number: 113
   c_stargate_ramp:
+    default_pulse_ms: 120
     number: 114
   c_1:
     #S OFF 1 Bank Reset / S ON left top dome
+    default_pulse_ms: 120
     number: 1
   c_2:
     #S OFF 2 Bank Reset / S ON left center dome
+    default_pulse_ms: 120
     number: 2
   c_3:
     #S OFF Hole / S ON Stargate
+    default_pulse_ms: 120
     number: 3
   
 # L0 enable Relay Q Game over

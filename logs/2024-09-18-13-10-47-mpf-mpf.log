@@ -1,0 +1,42 @@
+2024-09-18 13:10:47,111 : INFO : root : Loading config.
+2024-09-18 13:10:47,113 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-09-18 13:10:47,113 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinball/Documents/Robowar/config/config.yaml
+2024-09-18 13:10:47,113 : INFO : ConfigProcessor : Loading config from file /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
+2024-09-18 13:10:47,122 : INFO : ConfigProcessor : Loading config: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml
+2024-09-18 13:10:47,122 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/Robowar/config/config.yaml.
+2024-09-18 13:10:47,123 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/config.yaml
+2024-09-18 13:10:47,125 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/switches.yaml
+2024-09-18 13:10:47,125 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/coils.yaml
+2024-09-18 13:10:47,126 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/displays.yaml
+2024-09-18 13:10:47,128 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/lamps.yaml
+2024-09-18 13:10:47,129 : INFO : ConfigProcessor : Config file cache created: /tmp/ce9187e7529af622f3b6e40d00abcf94.mpf_cache
+2024-09-18 13:10:47,157 : INFO : ConfigProcessor : Loading config from cache: /tmp/8973a6dc4f28e221c9999ded5d94a924.mpf_cache
+2024-09-18 13:10:47,158 : INFO : ConfigProcessor : Loading config from cache: /tmp/630a60b96e3d9b5031cbb1e5fa5514c1.mpf_cache
+2024-09-18 13:10:47,158 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-09-18 13:10:47,158 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-09-18-13-10-47-mpf-mpf.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/home/pinball/Documents/Robowar/logs/2024-09-18-13-10-47-mpf-mpf.log'}
+2024-09-18 13:10:47,158 : INFO : Machine : MPF path: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf
+2024-09-18 13:10:47,158 : INFO : Machine : Machine path: /home/pinball/Documents/Robowar
+2024-09-18 13:10:47,158 : INFO : Machine : Platform: linux
+2024-09-18 13:10:47,158 : INFO : Machine : Python executable location: /home/pinball/mpfenv/bin/python3
+2024-09-18 13:10:47,158 : INFO : Machine : Python version: 3.12.3 (64-bit)
+2024-09-18 13:10:47,159 : INFO : Machine : Initializing MPF...
+2024-09-18 13:10:47,203 : INFO : lisy : Connecting to /dev/ttyACM0 at 115200bps
+2024-09-18 13:10:47,203 : INFO : Machine : Shutting down...
+2024-09-18 13:10:47,203 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-09-18 13:10:47,304 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/machine.py", line 243, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/core/machine.py", line 333, in _initialize_platforms
+    result.result()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/platforms/lisy/lisy.py", line 387, in initialize
+    self._disable_dts_on_start_of_serial()
+  File "/home/pinball/mpfenv/lib/python3.12/site-packages/mpf/platforms/lisy/lisy.py", line 356, in _disable_dts_on_start_of_serial
+    with open(self.config['port']) as serial_port:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2024-09-18 13:10:47,307 : INFO : root : MPF run loop ended.

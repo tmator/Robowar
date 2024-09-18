@@ -1,3 +1,5 @@
+#config_version=6
+
 lights:
   l_shoot_again:
     number: 3
@@ -7,13 +9,13 @@ lights:
     number: 6
   l_b:
     number: 7
-  l_o:
+  l_o2:
     number: 8
   l_w:
     number: 9
   l_a:
     number: 10
-  l_r:
+  l_r2:
     number: 11
   l_1x:
     number: 15
@@ -37,7 +39,7 @@ lights:
     number: 24
   l_top_rollover_b:
     number: 25
-  l_top_rollover_o:
+  l_top_rollover_o2:
     number: 26
   l_drop_b:
     number: 27
@@ -63,7 +65,7 @@ lights:
     number: 37
   l_righti_out_rollover:
     number: 38
-  l_left_side_spot:
+  l_left_side_spot2:
     number: 39
   l_top_right_rollunder:
     number: 40
