@@ -10,25 +10,18 @@ lisy:
 
 config:
   - switches.yaml
+  - coils.yaml
+  - displays.yaml
+  - lamps.yaml
 
 playfields:
   playfield:
     default_source_device: bd_drain
     tags: default
 
-segment_displays:
-  upper_display:
-    size: 20
-    number: 1
-  lower_display:
-    size: 20
-    number: 2
-
-
-
 digital_outputs:
     game_over_relay:
-        number: 0
+        number: 1
         type: light
         enable_events: ball_started
         disable_events: ball_will_end
@@ -42,34 +35,3 @@ ball_devices:
         eject_coil: c_outhole
         eject_targets: playfield
         tags: drain, home, trough
-
-
-
-coils:
-  c_outhole:
-    number: 1
-
-# L0 enable Relay Q
-# L1 Relay T
-#L12 Relay S
-#L13 Relay A
-#L14 Stargate ramp
-
-#Rel S  OFF           ON
-#S1     1 bank      left top dome
-#S2     2 bank      left center dome
-#S3     Hole        Stargate #67 
-
-
-
-#    06 - left advance button (Sys80B only)
-#    07 - play / test switch
-#    16 - right advance button (Sys80B only)
-#    17 - left coin switch
-#    27 - right coin switch
-#    37 - center coin switch
-#    47 - replay button
-#    57 - plumb bob and ball roll tilts (these have the same switch assignment as the playfield tilt switch)
-
-#modes:
- # - base

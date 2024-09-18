@@ -1,0 +1,34 @@
+coils:
+  c_game_over:
+    number: 100
+  c_tilt:
+    number: 101
+  c_ball_release:
+    number: 102
+  c_tiltrelay_s:
+    number: 103
+  c_relay_a:
+    number: 113
+  c_stargate_ramp:
+    number: 114
+  c_1:
+    #S OFF 1 Bank Reset / S ON left top dome
+    number: 1
+  c_2:
+    #S OFF 2 Bank Reset / S ON left center dome
+    number: 2
+  c_3:
+    #S OFF Hole / S ON Stargate
+    number: 3
+  
+# L0 enable Relay Q Game over
+# L1 Relay T
+# L2 Ball release
+#L12 Relay S
+#L13 Relay A
+#L14 Stargate ramp
+
+#Rel S  OFF           ON
+#Sol 1     1 bank      left top dome
+#Sol 2     2 bank      left center dome
+#Sol 3     Hole        Stargate #67 

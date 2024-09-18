@@ -1,0 +1,7 @@
+segment_displays:
+  upper_display:
+    size: 20
+    number: 1
+  lower_display:
+    size: 20
+    number: 2
