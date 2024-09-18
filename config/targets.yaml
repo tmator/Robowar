@@ -1,0 +1,61 @@
+#config_version=6
+
+drop_targets:
+  #alpha1
+  a1_drop_target:
+    switch: s_alpha_1_target
+  #alpha2
+  a2_1_drop_target:
+    switch: s_alpha_2_target_1
+  a2_2_drop_target:
+    switch: s_alpha_2_target_2
+
+  #alpha3
+  a3_1_drop_target:
+    switch: s_alpha_3_target_1
+  a3_2_drop_target:
+    switch: s_alpha_3_target_2
+  a3_3_drop_target:
+    switch: s_alpha_3_target_3
+
+  #beta
+  b1_drop_target:
+    switch: s_beta_target_b
+  b2_drop_target:
+    switch: s_beta_target_e
+  b3_drop_target:
+    switch: s_beta_target_t
+  b4_drop_target:
+    switch: s_beta_target_a
+
+        
+
+drop_target_banks:
+
+  #alpha1 reset
+  alpha1_drop_targets:
+    drop_targets: a1_drop_target
+    reset_coils: c_1
+    reset_on_complete: 1s
+    reset_events: ball_starting
+
+  #alpha2 reset
+  alpha2_drop_targets:
+    drop_targets: a2_1_drop_target, a2_2_drop_target
+    reset_coils: c_2
+    reset_on_complete: 1s
+    reset_events: ball_starting
+
+  #alpha3 reset
+  alpha3_drop_targets:
+    drop_targets: a3_1_drop_target, a3_2_drop_target, a3_3_drop_target
+    reset_coils: c_5
+    reset_on_complete: 1s
+    reset_events: ball_starting
+
+  #beta reset
+  beta_drop_targets:
+    drop_targets: b1_drop_target, b2_drop_target, b3_drop_target, b4_drop_target
+    reset_coils: c_6
+    reset_on_complete: 1s
+    reset_events: ball_starting

@@ -24,13 +24,13 @@ switches:
     tags: playfield_active
   s_center_coin:
     number: 37   
-  s_1_top_target:
+  s_beta_target_b:
     number: 40
-  s_1_right_target:
+  s_alpha_3_target_1:
     number: 41
-  s_1_center_target:
+  s_alpha_2_target_1:
     number: 42
-  s_1_left_target:
+  s_alpha_1_target:
     number: 43
   s_1_top_rollover:
     number: 44
@@ -41,11 +41,11 @@ switches:
   s_start:
     number: 47
     tags: start   
-  s_2_top_target:
+  s_beta_target_e:
     number: 50
-  s_2_right_target:
+  s_alpha_3_target_2:
     number: 51
-  s_2_center_target:
+  s_alpha_2_target_2:
     number: 52
   s_top_left_bumper:
     number: 53
@@ -53,13 +53,13 @@ switches:
     number: 54
   s_left_return_rollover:
     number: 55
-  s_throught:
+  s_trough:
     number: 56
   s_tilt:
     number: 57
-  s_3_top_target:
+  s_beta_target_t:
     number: 60
-  s_3_right_target:
+  s_alpha_3_target_3:
     number: 61
   s_left_spot_target:
     number: 62
@@ -71,7 +71,7 @@ switches:
     number: 65
   s_outhole:
     number: 66
-  s_4_top_grop_target:
+  s_beta_target_a:
     number: 70
   s_stargate_rollover:
     number: 71

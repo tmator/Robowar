@@ -8,11 +8,15 @@ lisy:
   port: /dev/ttyACM0
   baud: 115200
 
+
+
 config:
   - switches.yaml
   - coils.yaml
   - displays.yaml
   - lamps.yaml
+  - vars.yaml
+  - targets.yaml
 
 playfields:
   playfield:
@@ -35,7 +39,7 @@ game:
 ball_devices:
     #ejection de la bille dans le lanceur
     bd_plung:
-      ball_switches: s_throught
+      ball_switches: s_trough
       eject_coil: c_ball_release  
       eject_targets: playfield
       tags: home, trough
@@ -44,4 +48,30 @@ ball_devices:
         ball_switches: s_outhole
         eject_coil: c_3
         eject_targets: bd_plung
-        tags: drain  
+        tags: drain
+    
+    #lock eject
+    bd_stargate_lock:
+      ball_switches: s_stargate_spot
+    eject_coil: c_3
+    exit_count_delay: 250ms
+    eject_timeouts: 1000ms
+    eject_all_events: game_ended
+    #eject_coil_retry_pulse: 35
+    #retries_before_increasing_pulse: 1
+
+
+diverters:
+  stargate_ramp:
+    activation_coil: c_3 #with S ON
+    #TODO
+    #type: hold
+    activation_time: 2s
+    activation_switches: s_hole
+    deactivation_switches: s_left_orbit
+    enable_events:
+      - orbit_gate_enable
+      - mode_skill_shot_starting
+    disable_events:
+      - mode_skill_shot_stopping
+      - orbit_gate_disable #, diverter_orbit_gate_deactivating

@@ -4,6 +4,9 @@ mode:
   start_events: ball_started
   priority: 100
 
+event_player:
+  mode_base_started:
+    - start_mode_relay_s
 
 segment_display_player:
   # empty all displays on game start and setup info display

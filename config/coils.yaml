@@ -2,7 +2,7 @@
 
 
 coils:
-  
+  #desactiver a la fin du game
   c_game_over:
     default_pulse_ms: 200
     number: 100
@@ -12,6 +12,7 @@ coils:
   c_ball_release:
     default_pulse_ms: 200
     number: 102
+  #a maintenir pour activer bobine
   c_relay_s:
     default_pulse_ms: 200
     number: 103
@@ -33,6 +34,14 @@ coils:
     #S OFF Hole / S ON Stargate
     default_pulse_ms: 120
     number: 3
+  c_5:
+    #S OFF 3 Bank Reset / S ON left bottom dome
+    default_pulse_ms: 120
+    number: 5
+  c_6:
+    #S OFF 4 Bank reset / S ON Right Top Dome
+    default_pulse_ms: 120
+    number: 6
   
 # L0 enable Relay Q Game over
 # L1 Relay T

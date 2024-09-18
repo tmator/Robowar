@@ -7,3 +7,14 @@ segment_displays:
   lower_display:
     size: 20
     number: 2
+
+segment_display_player:
+  game_start:
+    upper_display:
+      text: "{current_player.ball:d}"
+    lower_display:
+      text: "BRICE RROBOWAR"
+
+#  player_added.1{num==1}:
+#    display1:
+#      text: "{players[0].score:d}"

@@ -1,76 +1,92 @@
 events:
-  game_ended: 0
-  game_started: 19
+  game_ended: 1
+  game_started: 30
 missing_switches:
-  s_1_top_rollover: 19
+  s_1_top_rollover: 9
   s_2_center_target: 19
-  s_2_top_rollover: 19
+  s_2_top_rollover: 9
   s_2_top_target: 19
-  s_3_top_rollover: 19
+  s_3_top_rollover: 4
   s_3_top_target: 19
   s_4_top_grop_target: 19
-  s_center_coin: 19
-  s_hole: 19
-  s_left_adv: 19
-  s_left_coin: 19
-  s_left_out_rollover: 19
-  s_left_return_rollover: 19
-  s_left_spot_target: 19
-  s_play_test_play: 19
-  s_right_adv: 19
-  s_right_coin: 19
-  s_right_out_rollover: 19
-  s_right_return_rollover: 19
-  s_right_side_rollover: 19
-  s_spinner: 19
-  s_stargate_rollover: 19
-  s_stargate_spot: 19
-  s_throught: 5
-  s_tilt: 19
+  s_beta_target_a: 3
+  s_beta_target_b: 4
+  s_beta_target_e: 3
+  s_beta_target_t: 3
+  s_center_coin: 30
+  s_hole: 9
+  s_kicking_2: 9
+  s_left_adv: 30
+  s_left_coin: 30
+  s_left_out_rollover: 9
+  s_left_return_rollover: 9
+  s_left_spot_target: 9
+  s_play_test_play: 30
+  s_right_adv: 30
+  s_right_coin: 30
+  s_right_out_rollover: 9
+  s_right_return_rollover: 4
+  s_right_side_rollover: 4
+  s_spinner: 9
+  s_stargate_rollover: 30
+  s_stargate_spot: 30
+  s_throught: 2
+  s_tilt: 30
 player:
   score:
     average: 0
-    top: []
-    total: 0
+    top:
+    - 0
+    total: 1
 switches:
   s_1_center_target: 1
   s_1_left_target: 67
   s_1_right_target: 72
-  s_1_top_rollover: 0
+  s_1_top_rollover: 1
   s_1_top_target: 6
   s_2_center_target: 0
   s_2_right_target: 19
-  s_2_top_rollover: 0
+  s_2_top_rollover: 4
   s_2_top_target: 0
   s_3_right_target: 11
-  s_3_top_rollover: 0
+  s_3_top_rollover: 2
   s_3_top_target: 0
   s_4_top_grop_target: 0
-  s_4_top_rollover: 4
-  s_bottom_bumper: 5
+  s_4_top_rollover: 16
+  s_alpha_1_target: 62
+  s_alpha_2_target_1: 5
+  s_alpha_2_target_2: 4
+  s_alpha_3_target_1: 115
+  s_alpha_3_target_2: 45
+  s_alpha_3_target_3: 18
+  s_beta_target_a: 3
+  s_beta_target_b: 7
+  s_beta_target_e: 2
+  s_beta_target_t: 3
+  s_bottom_bumper: 12
   s_center_coin: 0
-  s_hole: 0
-  s_kicking_2: 1
+  s_hole: 3
+  s_kicking_2: 6
   s_left_adv: 0
   s_left_coin: 0
-  s_left_out_rollover: 0
-  s_left_return_rollover: 0
-  s_left_spot_target: 0
-  s_outhole: 9
+  s_left_out_rollover: 3
+  s_left_return_rollover: 2
+  s_left_spot_target: 4
+  s_outhole: 22
   s_play_test_play: 0
   s_right_adv: 0
   s_right_coin: 0
-  s_right_flipper: 15
-  s_right_out_rollover: 0
-  s_right_return_rollover: 0
-  s_right_side_rollover: 0
-  s_shooter_lane_rollover: 19
-  s_spinner: 0
+  s_right_flipper: 28
+  s_right_out_rollover: 1
+  s_right_return_rollover: 3
+  s_right_side_rollover: 2
+  s_shooter_lane_rollover: 32
+  s_spinner: 31
   s_stargate_rollover: 0
   s_stargate_spot: 0
-  s_start: 30
-  s_throught: 7
+  s_start: 38
+  s_throught: 12
   s_tilt: 0
-  s_top_left_bumper: 1
-  s_top_right_bumper: 8
-  s_top_right_rollunder: 51
+  s_top_left_bumper: 7
+  s_top_right_bumper: 46
+  s_top_right_rollunder: 85
