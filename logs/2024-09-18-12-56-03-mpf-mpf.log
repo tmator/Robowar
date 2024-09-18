@@ -1,8 +1,0 @@
-2024-09-18 12:56:03,601 : INFO : root : Loading config.
-2024-09-18 12:56:03,603 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2024-09-18 12:56:03,603 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinball/Documents/Robowar/config/config.yaml
-2024-09-18 12:56:03,603 : INFO : ConfigProcessor : Loading config from file /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml.
-2024-09-18 12:56:03,612 : INFO : ConfigProcessor : Loading config: /home/pinball/mpfenv/lib/python3.12/site-packages/mpf/mpfconfig.yaml
-2024-09-18 12:56:03,612 : INFO : ConfigProcessor : Loading config from file /home/pinball/Documents/Robowar/config/config.yaml.
-2024-09-18 12:56:03,613 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/config.yaml
-2024-09-18 12:56:03,615 : INFO : ConfigProcessor : Loading config: /home/pinball/Documents/Robowar/config/switches.yaml
