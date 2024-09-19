@@ -1,14 +1,14 @@
 #config_version=6
 
 hardware:
-  #platform: smart_virtual
-  platform: lisy
-lisy:
-  connection: serial
-  port: /dev/ttyACM0
-  baud: 115200
+  platform: smart_virtual
+  #platform: lisy
+#lisy:
+#  connection: serial
+#  port: /dev/ttyACM0
+#  baud: 115200
 
-
+virtual_platform_start_active_switches: s_trough
 
 config:
   - switches.yaml
@@ -50,28 +50,14 @@ ball_devices:
         eject_targets: bd_plung
         tags: drain
     
-    #lock eject
-    bd_stargate_lock:
-      ball_switches: s_stargate_spot
-    eject_coil: c_3
-    exit_count_delay: 250ms
-    eject_timeouts: 1000ms
-    eject_all_events: game_ended
-    #eject_coil_retry_pulse: 35
-    #retries_before_increasing_pulse: 1
-
-
-diverters:
-  stargate_ramp:
-    activation_coil: c_3 #with S ON
-    #TODO
-    #type: hold
-    activation_time: 2s
-    activation_switches: s_hole
-    deactivation_switches: s_left_orbit
-    enable_events:
-      - orbit_gate_enable
-      - mode_skill_shot_starting
-    disable_events:
-      - mode_skill_shot_stopping
-      - orbit_gate_disable #, diverter_orbit_gate_deactivating
+keyboard:
+  debug: yes
+  a:
+    switch: s_start
+  z:
+    switch: s_trough
+    invert: true 
+  e:
+    switch: s_shooter_lane_rollover
+  r:
+    switch: s_1_top_rollover
