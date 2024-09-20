@@ -1,0 +1,385 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_spinner: 'FFFFFF'
+    l_top_rollover_1: 'FFFFFF'
+    l_top_rollover_r: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a: 'FFFFFF'
+    l_drop_t: 'FFFFFF'
+    l_left_bumper: 'FFFFFF'
+    l_stargate_advance: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_b: 'FFFFFF'
+    l_drop_base: 'FFFFFF'
+    l_drop_e: 'FFFFFF'
+    l_shoot_again: 'FFFFFF'
+    l_top_rollover_2: 'FFFFFF'
+    l_top_rollover_o: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_bottom_bumper: 'FFFFFF'
+    l_stargate_battle: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_drop_a1: 'FFFFFF'
+    l_right_bumper: 'FFFFFF'
+    l_top_rollover_1: '000000'
+    l_top_rollover_2: '000000'
+    l_top_rollover_o: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_a2: 'FFFFFF'
+    l_drop_a3: 'FFFFFF'
+    l_left_side_spot: 'FFFFFF'
+    l_top_rollover_r: '000000'
+    
+- time: '+1'
+  lights:
+    l_b: 'FFFFFF'
+    l_o: 'FFFFFF'
+    l_o2: 'FFFFFF'
+    l_w: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_8x: 'FFFFFF'
+    l_a: 'FFFFFF'
+    l_right_bumper: '000000'
+    l_spinner: '000000'
+    
+- time: '+1'
+  lights:
+    l_1x: 'FFFFFF'
+    l_drop_a: '000000'
+    l_drop_t: '000000'
+    l_left_bumper: '000000'
+    l_left_side_spot: '000000'
+    l_r: 'FFFFFF'
+    l_r2: 'FFFFFF'
+    l_stargate_advance: '000000'
+    
+- time: '+1'
+  lights:
+    l_4x: 'FFFFFF'
+    l_drop_b: '000000'
+    l_drop_base: '000000'
+    l_drop_e: '000000'
+    l_right_side_rollover: 'FFFFFF'
+    l_stargate_battle: '000000'
+    
+- time: '+1'
+  lights:
+    l_2x: 'FFFFFF'
+    l_bottom_bumper: '000000'
+    l_r: '000000'
+    l_righti_out_rollover: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a1: '000000'
+    l_right_return_rollover: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a3: '000000'
+    l_o: '000000'
+    
+- time: '+1'
+  lights:
+    l_b: '000000'
+    l_drop_a2: '000000'
+    l_o2: '000000'
+    
+- time: '+1'
+  lights:
+    l_8x: '000000'
+    l_a: '000000'
+    l_right_side_rollover: '000000'
+    l_shoot_again: '000000'
+    l_w: '000000'
+    
+- time: '+1'
+  lights:
+    l_left_return_rollover: 'FFFFFF'
+    l_r2: '000000'
+    
+- time: '+1'
+  lights:
+    l_8x: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_a: 'FFFFFF'
+    l_o: 'FFFFFF'
+    l_r: 'FFFFFF'
+    l_r2: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_b: 'FFFFFF'
+    l_o2: 'FFFFFF'
+    l_right_side_rollover: 'FFFFFF'
+    l_w: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_1x: '000000'
+    l_left_side_spot2: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a2: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a1: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_2x: '000000'
+    l_left_side_spot: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a3: 'FFFFFF'
+    l_right_return_rollover: '000000'
+    
+- time: '+1'
+  lights:
+    l_left_return_rollover: '000000'
+    l_righti_out_rollover: '000000'
+    
+- time: '+1'
+  lights:
+    l_4x: '000000'
+    l_stargate_battle: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_8x: '000000'
+    l_drop_b: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_bottom_bumper: 'FFFFFF'
+    l_drop_base: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_e: 'FFFFFF'
+    l_r: '000000'
+    l_r2: '000000'
+    l_stargate_advance: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_a: '000000'
+    l_b: '000000'
+    l_drop_t: 'FFFFFF'
+    l_o: '000000'
+    l_right_side_rollover: '000000'
+    
+- time: '+1'
+  lights:
+    l_o2: '000000'
+    l_w: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_a: 'FFFFFF'
+    l_left_side_spot2: '000000'
+    l_right_bumper: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_left_bumper: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a2: '000000'
+    l_spinner: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_drop_a1: '000000'
+    l_left_side_spot: '000000'
+    l_top_right_rollunder: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_drop_a3: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_stargate_battle: '000000'
+    l_top_rollover_b: 'FFFFFF'
+    l_top_rollover_o: 'FFFFFF'
+    l_top_rollover_o2: 'FFFFFF'
+    l_top_rollover_r: 'FFFFFF'
+    
+- time: '+1'
+  lights:
+    l_top_rollover_1: 'FFFFFF'
+    l_top_rollover_2: 'FFFFFF'
+    l_top_rollover_3: 'FFFFFF'
+    l_top_rollover_4: 'FFFFFF'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_drop_b: '000000'
+    
+- time: '+1'
+  lights:
+    l_bottom_bumper: '000000'
+    l_drop_base: '000000'
+    l_drop_e: '000000'
+    l_stargate_advance: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_drop_t: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_a: '000000'
+    l_right_bumper: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_left_bumper: '000000'
+    l_top_right_rollunder: '000000'
+    
+- time: '+1'
+  lights:
+    l_spinner: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_top_rollover_o2: '000000'
+    
+- time: '+1'
+  lights:
+    l_top_rollover_b: '000000'
+    l_top_rollover_o: '000000'
+    l_top_rollover_r: '000000'
+    
+- time: '+1'
+  lights:
+    l_top_rollover_1: '000000'
+    l_top_rollover_2: '000000'
+    l_top_rollover_3: '000000'
+    l_top_rollover_4: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

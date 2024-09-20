@@ -16,3 +16,10 @@ coils:
  number: 112
 This is for Gottlieb Devils Dare, in this game the ball release coil is controlled by lamp driver #12. So
 the ‘virtual’ coil ‘c_trough_release’ is defined with number 112 ( 100 + 12).
+
+
+couleur rouge/orange ff1900
+
+
+Regles :
+	-

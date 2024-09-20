@@ -8,6 +8,9 @@ hardware:
 #  port: /dev/ttyACM0
 #  baud: 115200
 
+modes:
+  - attract
+  - base
 virtual_platform_start_active_switches: s_trough
 
 config:

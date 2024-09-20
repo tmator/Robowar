@@ -2,20 +2,22 @@
 
 mode:
   start_events: ball_started
-  priority: 100
+#  priority: 100
 
-event_player:
-  mode_base_started:
-    - start_mode_relay_s
 
-segment_display_player:
-  # empty all displays on game start and setup info display
-  game_start:
-    upper_display:
-      text: "Brice RoboWar"
-##! test
-#! start_game
-#! assert_mode_running base
-#! assert_text_on_top_slide "00"
-#! assert_text_on_top_slide "PLAYER 1"
-#! assert_text_on_top_slide "BALL 1"
+
+slide_player:
+  mode_base_started: base
+
+variable_player:
+  s_alpha_1_target_active:
+    score: 100
+    bonus_multiplier: 1
+  s_alpha_2_target_1_active:
+    score: 100
+    bonus_multiplier: 1
+  s_alpha_2_target_2_active:
+    score: 100
+    bonus_multiplier: 1
+  s_1_top_rollover_active:
+    score: 1000
