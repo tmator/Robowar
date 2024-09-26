@@ -1,48 +1,51 @@
 events:
   game_ended: 1
-  game_started: 40
+  game_started: 50
 missing_switches:
+  s_1_top_rollover: 10
   s_2_center_target: 19
-  s_2_top_rollover: 19
+  s_2_top_rollover: 7
   s_2_top_target: 19
-  s_3_top_rollover: 14
+  s_3_top_rollover: 5
   s_3_top_target: 19
   s_4_top_grop_target: 19
-  s_4_top_rollover: 10
-  s_alpha_3_target_1: 10
-  s_alpha_3_target_2: 10
-  s_alpha_3_target_3: 10
-  s_beta_target_a: 13
-  s_beta_target_b: 14
-  s_beta_target_e: 13
-  s_beta_target_t: 13
-  s_bottom_bumper: 10
-  s_center_coin: 40
-  s_hole: 19
-  s_kicking_2: 19
-  s_left_adv: 40
-  s_left_coin: 40
-  s_left_out_rollover: 19
-  s_left_return_rollover: 19
-  s_left_spot_target: 19
-  s_outhole: 1
-  s_play_test_play: 40
-  s_right_adv: 40
-  s_right_coin: 40
-  s_right_flipper: 10
-  s_right_out_rollover: 19
-  s_right_return_rollover: 14
-  s_right_side_rollover: 14
-  s_spinner: 19
-  s_stargate_rollover: 40
-  s_stargate_spot: 40
-  s_start: 5
+  s_4_top_rollover: 20
+  s_alpha_1_target: 5
+  s_alpha_2_target_1: 5
+  s_alpha_2_target_2: 5
+  s_alpha_3_target_1: 6
+  s_alpha_3_target_2: 20
+  s_alpha_3_target_3: 20
+  s_beta_target_a: 23
+  s_beta_target_b: 24
+  s_beta_target_e: 23
+  s_beta_target_t: 23
+  s_bottom_bumper: 20
+  s_center_coin: 50
+  s_hole: 29
+  s_kicking_2: 5
+  s_left_adv: 50
+  s_left_coin: 50
+  s_left_out_rollover: 29
+  s_left_return_rollover: 29
+  s_left_spot_target: 29
+  s_play_test_play: 50
+  s_right_adv: 7
+  s_right_coin: 50
+  s_right_flipper: 20
+  s_right_out_rollover: 29
+  s_right_return_rollover: 24
+  s_right_side_rollover: 24
+  s_spinner: 29
+  s_stargate_rollover: 50
+  s_stargate_spot: 50
+  s_start: 1
   s_throught: 2
-  s_tilt: 40
-  s_top_left_bumper: 10
-  s_top_right_bumper: 10
-  s_top_right_rollunder: 10
-  s_trough: 1
+  s_tilt: 50
+  s_top_left_bumper: 5
+  s_top_right_bumper: 5
+  s_top_right_rollunder: 5
+  s_trough: 5
 player:
   score:
     average: 0
@@ -57,17 +60,17 @@ switches:
   s_1_top_target: 6
   s_2_center_target: 0
   s_2_right_target: 19
-  s_2_top_rollover: 4
+  s_2_top_rollover: 5
   s_2_top_target: 0
   s_3_right_target: 11
-  s_3_top_rollover: 2
+  s_3_top_rollover: 4
   s_3_top_target: 0
   s_4_top_grop_target: 0
   s_4_top_rollover: 16
-  s_alpha_1_target: 83
-  s_alpha_2_target_1: 16
-  s_alpha_2_target_2: 21
-  s_alpha_3_target_1: 115
+  s_alpha_1_target: 85
+  s_alpha_2_target_1: 18
+  s_alpha_2_target_2: 23
+  s_alpha_3_target_1: 125
   s_alpha_3_target_2: 45
   s_alpha_3_target_3: 18
   s_beta_target_a: 3
@@ -77,28 +80,28 @@ switches:
   s_bottom_bumper: 12
   s_center_coin: 0
   s_hole: 3
-  s_kicking_2: 6
+  s_kicking_2: 10
   s_left_adv: 0
   s_left_coin: 0
   s_left_out_rollover: 3
   s_left_return_rollover: 2
   s_left_spot_target: 4
-  s_outhole: 28
+  s_outhole: 42
   s_play_test_play: 0
-  s_right_adv: 0
+  s_right_adv: 1
   s_right_coin: 0
   s_right_flipper: 28
   s_right_out_rollover: 1
   s_right_return_rollover: 3
   s_right_side_rollover: 2
-  s_shooter_lane_rollover: 58
+  s_shooter_lane_rollover: 76
   s_spinner: 31
   s_stargate_rollover: 0
   s_stargate_spot: 0
-  s_start: 48
+  s_start: 55
   s_throught: 12
   s_tilt: 0
-  s_top_left_bumper: 7
-  s_top_right_bumper: 46
-  s_top_right_rollunder: 85
-  s_trough: 12
+  s_top_left_bumper: 9
+  s_top_right_bumper: 51
+  s_top_right_rollunder: 100
+  s_trough: 20

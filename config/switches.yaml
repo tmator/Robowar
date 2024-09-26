@@ -3,6 +3,7 @@
 switches:
   s_left_adv:
     number: 6
+    events_when_activated: activer_bobine_stargate
   s_play_test_play:
     number: 7
   s_right_adv:

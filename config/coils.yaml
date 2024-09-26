@@ -14,8 +14,9 @@ coils:
     number: 102
   #a maintenir pour activer bobine
   c_relay_s:
-    default_pulse_ms: 200
-    number: 103
+    number: 112
+    allow_enable: true
+    default_hold_power: .2
   c_relay_a:
     default_pulse_ms: 120
     number: 113
@@ -42,8 +43,22 @@ coils:
     #S OFF 4 Bank reset / S ON Right Top Dome
     default_pulse_ms: 120
     number: 6
-  
 
+psus:
+  default:
+    voltage: 48
+    release_wait_ms: 10    # defaults to 10ms
+dual_wound_coils:
+  c_hole_eject:
+    hold_coil: c_relay_s
+    main_coil: c_3
+
+
+#coil_player:
+#  activer_bobine_stargate:
+#    c_relay_s  :
+#      action: enable
+#      hold_power: .5
 # L0 enable Relay Q Game over
 # L1 Relay T
 # L2 Ball release

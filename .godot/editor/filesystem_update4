@@ -1,3 +1,4 @@
-res://modes/base/slides/base.tscn
-res://gmc.cfg
+res://addons/mpf-gmc/slides/window.tscn
 res://README.md
+res://modes/base/slides/base.tscn
+res://modes/attract/slides/attract.tscn
