@@ -26,7 +26,8 @@ playfields:
     default_source_device: bd_plung
     tags: default
 
-
+custom_code:
+  code.outholerobowar.OutholeRobowar
 
 digital_outputs:
     #activation des batteurs et bumpers
