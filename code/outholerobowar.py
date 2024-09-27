@@ -15,10 +15,16 @@ class OutholeRobowar(CustomCode):
 
     def eject_ball(self):
 
-        #self.machine.coils['c_relay_s'].enable(pulse_ms=00)
-        #self.machine.coils['c_3'].enable(=20)
+        #self.machine.coils['c_relay_s'].enable(pulse_ms=50,pulse_power=1,hold_power=1)
+        self.machine.coils['c_relay_s'].pulse(pulse_ms=1000)
+        self.machine.coils['c_4'].pulse(pulse_ms=50)
+        self.machine.coils['c_4'].pulse(pulse_ms=30)
+        #self.machine.coils['c_3'].pulse(pulse_ms=30)
+        #self.machine.coils['c_3'].pulse(pulse_ms=30)
+        #self.machine.coils['c_3'].pulse(pulse_ms=30)
+
 
         #self.machine.coils['c_3'].disable()
         #self.machine.coils['c_relay_s'].disable()
 
-        self.machine.lights['l_4x'].on()
+        #self.machine.lights['l_4x'].off()
