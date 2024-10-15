@@ -1,8 +1,8 @@
 #config_version=6
 
 hardware:
-  #platform: smart_virtual
-  platform: lisy
+  platform: smart_virtual
+  #platform: lisy
 lisy:
   connection: serial
   port: /dev/ttyACM0
@@ -11,7 +11,7 @@ lisy:
 modes:
   - attract
   - base
-#virtual_platform_start_active_switches: s_trough
+virtual_platform_start_active_switches: s_trough
 
 config:
   - switches.yaml

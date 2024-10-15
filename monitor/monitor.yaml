@@ -5,7 +5,7 @@ ball_device:
   bd_plung:
     x: 0.8675175620856833
     y: 0.8334817453250223
-device_size: 0.02
+device_size: 0.05
 light:
   l_1x:
     x: 0.460670822202434
